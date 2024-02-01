@@ -1,0 +1,293 @@
+h1{
+    font-size: 300%;
+}
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 50px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    margin: 0;
+}
+
+/*MENU*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 100px;
+    background-color: white; 
+    font-size: 83%;
+            
+}
+
+.logo{
+    display: flex;
+    
+}
+
+
+header nav a{
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    transition: .5s;
+    border-radius: 10px;
+    
+}
+
+
+header nav a:hover{
+    background-color: #fee600;
+}
+
+
+
+
+
+
+/* BANNER PRINCIPAL */ 
+.inicio {
+    height: 50vh;
+    background: url(imagenes\ quienes\ somos/img00-qs.jpg) center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    color: white; 
+    text-align: center;
+    position: relative;
+    
+}
+
+.texto {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;  
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+}
+
+/* DOS PRIMERAS SECCIONES */ 
+.image {
+    border-radius: 0.375em;
+    border: 0;
+    display: inline-block;
+    position: relative; }
+    .image img {
+      border-radius: 0.375em;
+      display: block; }
+
+      .image.left, .image.right {
+        max-width: 50%;
+      }
+      .image.left img, .image.right img {
+        width: 100%; }
+
+    .image.left {
+      float: left;
+      padding: 0 1.5em 1em 0;
+      top: 0.25em; }
+
+    .image.right {
+      float: right;
+      padding: 0 0 1em 1.5em;
+      top: 0.25em; }
+
+.text1{
+    padding: 5%;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+/* Colores de fondo */ 
+#cuadro1{
+    background-color: #fee50044;
+    
+}
+
+#cuadro2{
+    background-color: rgb(247, 247, 247);
+}
+
+
+#h2-2{
+    text-align: right;
+}
+
+/* 4TA SECCION - MISION VISION */ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px
+}
+
+.left-section,
+.right-section {
+    flex: 1 100%; /* Ocupar todo el ancho en dispositivos móviles */
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+.description-list {
+    list-style-type: none; /* Eliminar viñetas */
+    padding-left: 10%;    
+    padding-right: 10%;  
+}
+
+.description-list li {
+    margin-bottom: 20px;
+}
+
+.decorative-line {
+    border: 0;
+    height: 4px;
+    background-color: #FEE600; /* Color de la línea decorativa */
+}
+
+/* Media Query para dispositivos móviles */
+@media only screen and (min-width: 600px) {
+    .left-section {
+        flex: 1;
+    }
+    .right-section {
+        flex: 1;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+
+/* 5TA SECCION - FOOTER */ 
+
+.footer{
+	padding-top: 40px;
+    padding-bottom: 40px;
+	box-sizing: border-box; /* Investigar */ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247); /* color de todo el fondo */ 
+   
+}
+.container{
+	max-width: 100%;  /* el ancho de todo */ 
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-col ul{
+	list-style: none;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 20px;
+
+}
+
+.footer-img{
+    width: 30%; /* tamaño de logo hierrofeca*/ 
+}
+
+.footer-img img{
+    width: 100%;
+}
+
+#p-footer{
+    font-size: 90%; /* parrafo*/ 
+}
+
+.footer-col h4{
+	font-size: 100%;
+	color: #000000;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: bold;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px; /* posicion de la raya*/ 
+	background-color: #fee600;
+	height: 3px;
+	box-sizing: border-box;
+	width: 60px; /* tamaño de la raya*/ 
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px; /* separacion en sobre nosotros*/ 
+}
+.footer-col ul li a{
+	font-size: 90%;
+	text-transform:capitalize;
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #6b6b6b;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #ffffff;
+	margin:0 10px 10px 0;
+	line-height: 40px;
+	border-radius: 50%;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	background-color: #7a7a7a;
+}
+
+.social-links{
+    padding-top: 10px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.footer-img{
+    width: 50%;
+}
+
+header{
+    flex-direction: column;
+    font-size: 75%;
+}
+
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+.footer-img{
+    width: 50%;
+}
+}
