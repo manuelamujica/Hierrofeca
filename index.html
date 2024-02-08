@@ -15,26 +15,40 @@
             <img src="imagenes/hierrofeca.png" alt="" width="300" height="100">
         </a>
         <nav>
-            <a href="">Inicio</a>
-            <a href="Quienessomos2.html">Quiénes somos?</a>
-            <a href="#p-footer">Contactos</a>
-            <a href="#box4">Ubicación</a>
+            <ul>
+                <li><a href="#" id="icon">&#8801</a>
+                    <ul class="dropdown">
+                        <li><a href="pdf/manual1.pdf">Manual de Usuario</a></li>
+                        <li><a href="pdf/manual2.pdf">Manual Buen Uso del Computador</a></li> 
+                        <li><a href="pdf/manual3.pdf">Manual Soporte Técnico</a></li>
+                </ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="Quienessomos2.html">Quiénes somos?</a></li>
+                <li><a href="#p-footer">Contactos</a></li>
+                <li><a href="#box4">Ubicación</a></li>
+            </ul>
         </nav>
     </header>
+
 
 <!-- 1. HEADER: HIERROFECA -->
     <section id="pag1">
         <div class="pag1">
             <div class="pag1text">
+                <marquee behavior="" direction="">Contactanos: 0424-5146126 / 0251-2660966</marquee>  <!-- CAMBIO -->
+                <br>
                 <h1>HIERROFECA</h1>
                 <br>
                 <h2>Todo,todito,todo en materiales<br>de construcción y ferretería.</h2>
-                <button class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                    </span>
-                    <a href="#tbox2" class="button-text">Más información</span></a>
-                  </button>
+                <a href="#tbox2" class="button-text"> 
+                    
+                    <button class="learn-more"> 
+                        <p class="button-text">Más información</p>
+                        <span class="circle" aria-hidden="true"> 
+                        <span class="icon arrow"></span>
+                        
+                    </button>
+                </a>
             </div>
             <div class="image">
                 <img  src="imagenes/img01-inicio.jpg" alt="" >
@@ -46,11 +60,11 @@
     <section id="one" class="wrapper">
         <div class="inner flex flex-3" id="box1">
             <div class="flex-item left" >
-                <div id="texts2">
+                <div class="texts2">
                     <h3>Calidad</h3>
                     <p>Trabajamos con proveedores confiables y sometemos nuestros productos a rigurosos controles de calidad para garantizar su durabilidad y eficiencia en cada proyecto de construcción.</p>
                 </div>
-                <div id="texts2">
+                <div class="texts2">
                     <h3>Confianza</h3>
                     <p>La confianza es el pilar sobre el que se construye nuestra relación con nuestros clientes. Nos comprometemos a ser un socio confiable en cada etapa de sus proyectos de construcción</p>
                 </div>
@@ -59,11 +73,11 @@
                 <img src="imagenes/img002-inicio.png" alt="ferretería"/>
             </div>
             <div class="flex-item right">
-                <div id="texts2">
+                <div class="texts2">
                     <h3>Seguridad</h3>
                     <p>Nos esforzamos por garantizar que nuestros productos cumplan con los más altos estándares de seguridad y que nuestros clientes puedan confiar en su uso en cualquier entorno.</p>
                 </div>
-                <div id="texts2" class="pa-but">
+                <div class="texts2" class="pa-but">
                     <h3>Asesoría</h3>
                     <p>Nuestro equipo de profesionales capacitados está disponible para proporcionar orientación sobre la selección de productos y cualquier otra consulta que pueda surgir.</p>
                 </div>
@@ -75,14 +89,14 @@
     <section class="two">
         <div id="box2">
             <div id="imgbox2">
-                <img src="imagenes/img03-inicio.jpg" alt="">
+                <img src="imagenes/img3-inicio.jpg" alt="">
             </div>
             <div id="tbox2">
                 <h2>¡Todo en Ferretería y Construcción!</h2>
-                <ul id="list2" style="list-style: url(imagenes/viñeta1-inicio.png);">
-                    <li>Hierro de construcción, cemento, bloques y ladrillos</li>
-                    <li>Arena, cabillas, pinturas</li>
-                    <li>Láminas de zinc, herramientas y más</li>
+                 <ul id="list2" style="list-style: none;">
+                    <li><img src="imagenes/viñeta1-inicio.png" alt="">Hierro de construcción, cemento, bloques y ladrillos</li>
+                    <li><img src="imagenes/viñeta3-inicio.png" alt="">Arena, cabillas, pinturas</li>
+                    <li><img src="imagenes/viñeta2-inicio.png" alt="">Láminas de zinc, herramientas y más</li>
                 </ul>
             </div>
         </div>
@@ -98,8 +112,8 @@
                     <img src="imagenes/comillas1.png" alt="comillas">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">“Hierrofeca es genial. Sus productos son súper buenos y confiables, justo lo que necesito para mis proyectos. También tiene una excelente atención al cliente. ¡Son lo máximo!”</p>
-                    <cite title="Source Title">Sofia C. Perez</cite>
+                    <p class="card-text">“Facil acceso carrera 4 de zona industrial I, a una cuadra del cicpc, todo en materiales de construcción, buena atención.”</p>
+                    <cite title="Source Title">Edgar Rodriguez</cite>
                 </div>
                 
             </div>
@@ -107,7 +121,7 @@
             <div class="review">
                 <img src="imagenes/comillas1.png" alt="comillas">
                 <div class="card-body">
-                    <p class="card-text">“Son mi opción número 1 cuando se daña algo de mi hogar o cuando quiero remodelar algún espacio. Simplemente les escribo por WhatsApp y siempre me atienden de maravilla.”</p>
+                    <p class="card-text">“Son mi opción número 1 cuando se daña algo de mi hogar o cuando quiero remodelar algún espacio. Siempre me atienden de maravilla.”</p>
                     <cite title="Source Title">Jorge A. Rojas</cite>
                 </div>    
             </div>
@@ -115,8 +129,8 @@
             <div class="review">
                 <img src="imagenes/comillas1.png" alt="comillas">
                 <div class="card-body">
-                    <p class="card-text">“Hierrofeca es genial. Sus productos son súper buenos y confiables, justo lo que necesito para mis proyectos. También tiene una excelente atención al cliente. ¡Son lo máximo!”</p>
-                    <cite title="Source Title">Maria A. Rodriguez</cite>
+                    <p class="card-text">“Buen servicio y los mejores precios! Siempre ayudan a sus clientes y la comunidad”</p>
+                    <cite title="Source Title">Ronald Rosales</cite>
                 </div>
             </div>
         </div>
@@ -128,25 +142,25 @@
             <div id="mapa1">
                 <div id="textm1">
                     <h3>Encuéntranos en<br>nuestras dos sedes.</h3>                   
-                    <button class="boton">Av.Florencio Jimenez</button>
+                    <a href="https://maps.app.goo.gl/m6ow7ZvPMfDffkEL6" target="_blank" rel="noreferrer noopener"><button class="boton">Av.Florencio Jimenez</button></a>
                     <p>Av. Florencio Jimenez,<br>Km 03 (via quibor).</p>
                 </div>
-                <div id="ifra">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.6126413818004!2d-69.34072447975632!3d10.081133096999714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e87676cd4b1d121%3A0xbedf6f3aca89c761!2sHierrofeca!5e0!3m2!1ses-419!2sve!4v1706151029917!5m2!1ses-419!2sve" width="60%" height="270px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div> 
-            
-            <div id="mapa2">
-                <div id="textm2">
-                    <button class="boton">Zona industrial</button>
-                    <p>Zona industrial 1,<br>calle 19 con carrera 4.</p>
-                </div>
-                <div id="ifra">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.7221355783897!2d-69.36689180496332!3d10.05974556369465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8766964a198af9%3A0x5e4cb3d45ff7f72a!2sFerreter%C3%ADa%20La%20Criolla!5e0!3m2!1ses-419!2sve!4v1706151323629!5m2!1ses-419!2sve" width="60%" height="270px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>    
-        </div>
-    </section>
+                <div class="ifra">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.7221355783897!2d-69.36689180496332!3d10.05974556369465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8766964a198af9%3A0x5e4cb3d45ff7f72a!2sFerreter%C3%ADa%20La%20Criolla!5e0!3m2!1ses-419!2sve!4v1706151323629!5m2!1ses-419!2sve" width="60%" height="270px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div> 
+        
+        <div id="mapa2">
+            <div id="textm2">
+                <a href="https://maps.app.goo.gl/ZKu68xLcKj9HHbSx8" target="_blank" rel="noreferrer noopener"><button class="boton">Zona industrial</button></a>
+                <p>Zona industrial 1,<br>calle 19 con carrera 4.</p>
+            </div>
+            <div class="ifra">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.6126413818004!2d-69.34072447975632!3d10.081133096999714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e87676cd4b1d121%3A0xbedf6f3aca89c761!2sHierrofeca!5e0!3m2!1ses-419!2sve!4v1706151029917!5m2!1ses-419!2sve" width="60%" height="270px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>    
+    </div>
+</section>
 
 <!-- 5. FOOTER -->
     <footer class="footer">
@@ -174,9 +188,9 @@
                     
                     <div class="social-links">
                         <h4>Síguenos</h4>
-                        <a href="https://www.facebook.com/profile.php?id=100068537756559"><img src="imagenes quienes somos/fb.svg" alt="facebook"></a>
-                        <a href="https://www.instagram.com/hierrofeca"><img src="imagenes quienes somos/ig.svg" alt="instagram"></a>
-                        <a href="https://wa.me/+584245146126"><img src="imagenes quienes somos/ws.svg" alt="whastapp"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100068537756559" target="_blank" rel="noreferrer noopener"><img src="imagenes quienes somos/fb.svg" alt="facebook"></a>
+                        <a href="https://www.instagram.com/hierrofeca" target="_blank" rel="noreferrer noopener"><img src="imagenes quienes somos/ig.svg" alt="instagram"></a>
+                        <a href="https://wa.me/+584245146126" target="_blank" rel="noreferrer noopener"><img src="imagenes quienes somos/ws.svg" alt="whastapp"></a>
                     </div>
                 </div>
             </div>
@@ -185,3 +199,4 @@
     
 </body>
 </html>
+
