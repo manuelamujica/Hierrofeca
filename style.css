@@ -635,6 +635,10 @@ cite{
           align-items: center;
       }
   
+      header nav ul{
+        padding: 0;
+      }
+
       ul li:hover ul.dropdown{
         text-align: left;
 
@@ -711,6 +715,14 @@ cite{
       .pa-but{
           padding-bottom: 30px;
       }
+
+      .image2.fit img {
+        width: 90%;
+    }
+
+        #one .flex-item {   
+        justify-content: center;
+    }
   
       /*SECCION TRES*/
   
